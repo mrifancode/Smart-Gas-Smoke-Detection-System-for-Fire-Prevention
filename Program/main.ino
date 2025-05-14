@@ -213,6 +213,6 @@ int main(void) {
         }
 
         UART_print("-----------------------------------\r\n");
-        _delay_ms(200); // Lebih responsif dari 1000ms
+        _delay_ms(1000); // Lebih responsif dari 1000ms
     }
 }
