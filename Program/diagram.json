@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "author": "Akunpes Jing",
+  "author": "kelompok fisol",
   "editor": "wokwi",
   "parts": [
     { "type": "wokwi-breadboard-half", "id": "bb1", "top": 160.2, "left": 319.6, "attrs": {} },
