@@ -1,0 +1,18 @@
+#define F_CPU 16000000UL  // Clock 16 MHz
+#include <avr/io.h>
+#include <util/delay.h>
+
+int main(void) {
+    // Set PD7 sebagai output
+    DDRD |= (1 << PD7);
+
+    while (1) {
+        // Aktifkan buzzer
+        PORTD |= (1 << PD7);
+        _delay_ms(500);
+
+        // Matikan buzzer
+        PORTD &= ~(1 << PD7);
+        _delay_ms(500);
+    }
+}
