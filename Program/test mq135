@@ -1,0 +1,74 @@
+#define F_CPU 16000000UL
+#include <avr/io.h>
+#include <util/delay.h>
+
+// Inisialisasi UART (USART0) untuk komunikasi serial
+void UART_init(unsigned int baud) {
+    unsigned int ubrr = F_CPU/16/baud - 1;
+    UBRR0H = (unsigned char)(ubrr >> 8);
+    UBRR0L = (unsigned char)ubrr;
+    UCSR0B = (1 << TXEN0);                     // Enable transmitter
+    UCSR0C = (1 << UCSZ01) | (1 << UCSZ00);    // 8-bit data
+}
+
+// Kirim satu karakter lewat UART
+void UART_sendChar(char data) {
+    while (!(UCSR0A & (1 << UDRE0)));
+    UDR0 = data;
+}
+
+// Kirim string lewat UART
+void UART_sendString(const char* str) {
+    while (*str) {
+        UART_sendChar(*str++);
+    }
+}
+
+// Inisialisasi ADC
+void ADC_init(void) {
+    ADMUX = (1 << REFS0);             // AVcc sebagai referensi, ADC0
+    ADCSRA = (1 << ADEN)              // Enable ADC
+           | (1 << ADPS2) | (1 << ADPS1); // Prescaler 64 (16MHz / 64 = 250kHz)
+}
+
+// Baca nilai ADC dari ADC0 (PA0)
+uint16_t ADC_read(void) {
+    ADMUX &= 0xF0;  // Pilih channel ADC0 (PA0)
+    ADCSRA |= (1 << ADSC);            // Start conversion
+    while (ADCSRA & (1 << ADSC));     // Tunggu sampai selesai
+    return ADC;
+}
+
+// Konversi angka ke string (sederhana)
+void itoa(uint16_t value, char* str) {
+    int i = 0;
+    do {
+        str[i++] = (value % 10) + '0';
+        value /= 10;
+    } while (value);
+    str[i] = '\0';
+
+    // Balik string
+    for (int j = 0; j < i/2; ++j) {
+        char temp = str[j];
+        str[j] = str[i-j-1];
+        str[i-j-1] = temp;
+    }
+}
+
+int main(void) {
+    char buffer[10];
+    UART_init(9600);
+    ADC_init();
+
+    while (1) {
+        uint16_t mq_value = ADC_read();
+        itoa(mq_value, buffer);
+
+        UART_sendString("MQ135 ADC: ");
+        UART_sendString(buffer);
+        UART_sendString("\r\n");
+
+        _delay_ms(1000);
+    }
+}
