@@ -10,9 +10,9 @@
 #define BAUDH VBAUDRATE / 256
 #define BAUDL VBAUDRATE % 256
 
-#define SENSOR_ASAP_THRESHOLD 600
-#define SENSOR_GAS_THRESHOLD 600
-#define SHOWER_THRESHOLD 1000
+#define SENSOR_ASAP_THRESHOLD 300
+#define SENSOR_GAS_THRESHOLD 800
+#define SHOWER_THRESHOLD 800
 
 #define LED_BAHAYA   PG5
 #define LED_AMAN     PE5
@@ -151,11 +151,6 @@ int main(void) {
             nyalakan_led_bahaya();
             SET_BIT(PORTB, RELAY1_PIN);
 
-            if (!lastGasState) {
-                UART_print("Gas Terdeteksi! Aktifkan FAN\r\n");
-                lastGasState = true;
-            }
-
             if (sensorGas >= SHOWER_THRESHOLD && !showerAktif) {
                 aktifkan_shower();
                 UART_print("Gas Sangat Tinggi! Aktifkan WATER SHOWER!\r\n");
@@ -167,11 +162,6 @@ int main(void) {
         } else {
             gasBahaya = false;
             CLR_BIT(PORTB, RELAY1_PIN);
-
-            if (lastGasState) {
-                UART_print("Aman. Matikan FAN\r\n");
-                lastGasState = false;
-            }
 
             if (showerAktif) {
                 matikan_shower();
