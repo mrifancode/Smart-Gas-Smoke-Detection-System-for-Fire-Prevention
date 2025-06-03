@@ -1,4 +1,4 @@
-![FAISOL Preview](https://github.com/mrifancode/Smart-Gas-Smoke-Detection-System-for-Fire-Prevention/blob/main/Assets/Logo%20Fisol.png?raw=true)
+![FAISOL Preview](https://github.com/mrifancode/Smart-Gas-Smoke-Detection-System-for-Fire-Prevention/blob/main/Dokumentasi/fix_flayer.png?raw=true)
 
 ## Didukung Oleh :
 >- Dosen Pengampu : Akhmad Hendriawan ST., MT. (NIP.197501272002121003)
@@ -26,6 +26,9 @@ Proyek ini merupakan sistem deteksi dini kebakaran berbasis mikrokontroler ATmeg
 Sensor gas dan asap seperti MQ-2 digunakan untuk mendeteksi senyawa mudah terbakar seperti LPG, asap hasil pembakaran, serta uap alkohol. Ketika konsentrasi gas atau asap melebihi ambang batas tertentu, sistem akan mengaktifkan alarm buzzer yang dikendalikan oleh sinyal PWM, sehingga mampu menghasilkan bunyi dengan intensitas berbeda tergantung level bahaya.
 
 Selain alarm suara dan LED, sistem ini juga mengirimkan informasi status ke GUI yang menampilkan kondisi real-time, seperti konsentrasi gas, status sistem (aman atau bahaya), dan log waktu kejadian. Melalui GUI, pengguna juga dapat melakukan reset alarm, mengatur ambang batas, atau mengaktifkan simulasi kondisi bahaya untuk pengujian sistem.
+
+## LOGO PRODUK ##
+![FAISOL Preview](https://github.com/mrifancode/Smart-Gas-Smoke-Detection-System-for-Fire-Prevention/blob/main/Assets/Logo%20Fisol.png?raw=true)
 
 ## 🔥🔥 Komponen Yang Digunakan 🔥🔥
  **1. 🤖Hardware**<br>
