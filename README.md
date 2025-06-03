@@ -1,4 +1,4 @@
-![FAISOL Preview](https://github.com/mrifancode/Smart-Gas-Smoke-Detection-System-for-Fire-Prevention/blob/main/Dokumentasi/fix_flayer.png?raw=true)
+![FAISOL Preview](https://github.com/mrifancode/Smart-Gas-Smoke-Detection-System-for-Fire-Prevention/blob/main/Dokumentasi/flyerku.png?raw=true)
 
 ## Didukung Oleh :
 >- Dosen Pengampu : Akhmad Hendriawan ST., MT. (NIP.197501272002121003)
