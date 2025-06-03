@@ -68,7 +68,7 @@ Berikut adalah manfaat-manfaat yang didapatkan dari project kami:
 4. **Notifikasi real-time** memudahkan pengguna dan petugas keamanan dalam mengambil tindakan segera.
 
 ## 🔌🔌 Wiring PCB 🔌🔌
-![FAISOL Preview](https://github.com/mrifancode/Smart-Gas-Smoke-Detection-System-for-Fire-Prevention/blob/main/Hardware/Wiring%20PCB.png?raw=true)
+![FAISOL Preview](https://github.com/mrifancode/Smart-Gas-Smoke-Detection-System-for-Fire-Prevention/blob/main/Hardware/Tampilan%20Wiring%20dan%202D%20PCB.png?raw=true)
 
 ## 💸💸 Rancangan Anggaran Biaya 💸💸
 
@@ -82,5 +82,9 @@ Berikut adalah manfaat-manfaat yang didapatkan dari project kami:
 | Kabel USB    | 1  | Rp5.000     | 
 | Kabel Jumper    | 1pack  | Rp15.000     |   
 | Kabel USB    | 1  | Rp5.000     |
+
+## Video Promosi ##
+https://youtu.be/rsLVeCHrQFU?si=O-Oxz26frcK8qSIt
+
 
     
