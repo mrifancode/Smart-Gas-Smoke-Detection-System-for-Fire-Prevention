@@ -85,7 +85,22 @@ Berikut adalah manfaat-manfaat yang didapatkan dari project kami:
 ## 🖼️🖼️ Desain 3D 🖼️🖼️ ##
 
 **Berikut adalah 3D desain tampak luar**
+
 ![FAISOL Preview](https://github.com/mrifancode/Smart-Gas-Smoke-Detection-System-for-Fire-Prevention/blob/main/Disain_3D/3D%20disain%20tanpak%20luar.png?raw=true)
+
+**Berikut adalah 3D desain tampak dalam**
+
+![FAISOL Preview](https://github.com/mrifancode/Smart-Gas-Smoke-Detection-System-for-Fire-Prevention/blob/main/Disain_3D/3D%20disain%20tampak%20dalam.png?raw=true)
+
+**Berikut adalah 3D desain tampak atas**
+
+![FAISOL Preview](https://github.com/mrifancode/Smart-Gas-Smoke-Detection-System-for-Fire-Prevention/blob/main/Disain_3D/3D%20disain%20tampak%20atas.png?raw=true)
+
+## Tampilan GUI ##
+![FAISOL Preview](https://github.com/mrifancode/Smart-Gas-Smoke-Detection-System-for-Fire-Prevention/blob/main/GUI/Dashboard/Tampilan%20GUI.jpg?raw=true)
+
+## Video Promosi ##
+https://youtu.be/rsLVeCHrQFU?si=O-Oxz26frcK8qSIt
 
 ## 💸💸 Rancangan Anggaran Biaya 💸💸
 
@@ -101,11 +116,6 @@ Berikut adalah manfaat-manfaat yang didapatkan dari project kami:
 | Kabel USB    | 1  | Rp5.000     |
 
 
-## Tampilan GUI ##
-![FAISOL Preview](https://github.com/mrifancode/Smart-Gas-Smoke-Detection-System-for-Fire-Prevention/blob/main/GUI/Dashboard/Tampilan%20GUI.jpg?raw=true)
-
-## Video Promosi ##
-https://youtu.be/rsLVeCHrQFU?si=O-Oxz26frcK8qSIt
 
 
     
