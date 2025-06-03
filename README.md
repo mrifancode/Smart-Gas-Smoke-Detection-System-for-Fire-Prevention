@@ -83,6 +83,10 @@ Berikut adalah manfaat-manfaat yang didapatkan dari project kami:
 | Kabel Jumper    | 1pack  | Rp15.000     |   
 | Kabel USB    | 1  | Rp5.000     |
 
+
+## Tampilan GUI ##
+![FAISOL Preview](https://github.com/mrifancode/Smart-Gas-Smoke-Detection-System-for-Fire-Prevention/blob/main/GUI/Dashboard/Tampilan%20GUI.jpg?raw=true)
+
 ## Video Promosi ##
 https://youtu.be/rsLVeCHrQFU?si=O-Oxz26frcK8qSIt
 
