@@ -8,10 +8,6 @@
 
 ## Team Member :
 
-<p align="center">
-  <img src="-">
-</p>
-
 |      NRP      |       Nama      |    Jobdesk    |   Akun |
 | :-----------:|:----------------:| :------------:| :-----:|
 | 2122600031    | Annisa Nurfika Rani  | UI/UX       | [Annisaranii](https://github.com/Annisaranii)
