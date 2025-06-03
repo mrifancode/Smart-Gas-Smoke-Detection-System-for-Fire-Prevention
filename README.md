@@ -72,13 +72,19 @@ Berikut adalah manfaat-manfaat yang didapatkan dari project kami:
 
 ## 🔌🔌 HARDWARE 🔌🔌
 
-Berikut adalah jalur Wiring PCB yang kami buat menggunakan KICAD
+**Berikut adalah jalur Wiring PCB yang kami buat menggunakan KICAD**
+
 ![FAISOL Preview](https://github.com/mrifancode/Smart-Gas-Smoke-Detection-System-for-Fire-Prevention/blob/main/Hardware/Tampilan%20Wiring%20dan%202D%20PCB.png?raw=true)
 
+**Berikut adalah tampilan 3D PCB yang kami buat menggunakan KICAD**
+
+![FAISOL Preview](https://github.com/mrifancode/Smart-Gas-Smoke-Detection-System-for-Fire-Prevention/blob/main/Hardware/Tampilan%203D%20PCB.png?raw=true)
 
 
 
 ## 🖼️🖼️ Desain 3D 🖼️🖼️ ##
+
+**Berikut adalah 3D desain tampak luar**
 ![FAISOL Preview](https://github.com/mrifancode/Smart-Gas-Smoke-Detection-System-for-Fire-Prevention/blob/main/Disain_3D/3D%20disain%20tanpak%20luar.png?raw=true)
 
 ## 💸💸 Rancangan Anggaran Biaya 💸💸
