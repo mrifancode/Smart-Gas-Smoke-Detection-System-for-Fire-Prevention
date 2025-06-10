@@ -6,7 +6,8 @@
 >- Program Studi : D4 Teknik Elektronika
 >- Politeknik Elektronika Negeri Surabaya<br>
 
-## Team Member :
+## 🌊Board Member :
+![FAISOL Preview](https://github.com/mrifancode/Smart-Gas-Smoke-Detection-System-for-Fire-Prevention/blob/main/Dokumentasi/faisol.jpg?raw=true)
 
 |      NRP      |       Nama      |    Jobdesk    |   Akun |
 | :-----------:|:----------------:| :------------:| :-----:|
@@ -97,6 +98,12 @@ Berikut adalah manfaat-manfaat yang didapatkan dari project kami:
 
 ## Video Promosi ##
 https://youtu.be/rsLVeCHrQFU?si=O-Oxz26frcK8qSIt
+
+## Link Canva ##
+https://www.canva.com/design/DAGk-WylCwI/zFOLZ6zRMfbkMm96gKlujw/edit?utm_content=DAGk-WylCwI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+## Link Figma ##
+https://www.figma.com/design/q9YQOLq4kY5U2ptUPi1XUb/web?fuid=1499084616784662598
 
 ## 💸💸 Rancangan Anggaran Biaya 💸💸
 
