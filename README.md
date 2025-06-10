@@ -58,6 +58,9 @@ Selain alarm suara dan LED, sistem ini juga mengirimkan informasi status ke GUI 
 
 ## 🧰Rangkaian Simulasi 
 ![FAISOL Preview](https://github.com/mrifancode/Smart-Gas-Smoke-Detection-System-for-Fire-Prevention/blob/main/Hardware/Rangkaian%20simulasi.png?raw=true)
+
+## 🔮Alur Kerja
+![FAISOL Preview](https://github.com/mrifancode/Smart-Gas-Smoke-Detection-System-for-Fire-Prevention/blob/main/Program/alur.jpg?raw=true)
     
 ## 🚨Manfaat Project 🚨
 Berikut adalah manfaat-manfaat yang didapatkan dari project kami:
