@@ -93,8 +93,11 @@ Berikut adalah manfaat-manfaat yang didapatkan dari project kami:
 
 ![FAISOL Preview](https://github.com/mrifancode/Smart-Gas-Smoke-Detection-System-for-Fire-Prevention/blob/main/Disain_3D/3D%20disain%20tampak%20atas.png?raw=true)
 
-## Tampilan GUI ##
+## 💻Tampilan GUI ##
 ![FAISOL Preview](https://github.com/mrifancode/Smart-Gas-Smoke-Detection-System-for-Fire-Prevention/blob/main/GUI/Dashboard/Tampilan%20GUI.jpg?raw=true)
+
+## 📱Tampilan GUI WEB HP ##
+![FAISOL Preview](https://github.com/mrifancode/Smart-Gas-Smoke-Detection-System-for-Fire-Prevention/blob/main/Desain%20UI%20UX/web%20hp.jpg?raw=true)
 
 ## Video Promosi ##
 https://youtu.be/rsLVeCHrQFU?si=O-Oxz26frcK8qSIt
